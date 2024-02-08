@@ -1,0 +1,17 @@
+.nav-link{
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nav-link:hover{
+    color: rgb(42, 38, 38);
+    font-size: 18px;
+    background-color: rgb(219, 219, 219);
+}
+ 
+.new-Nav{
+    margin-right: 10px;
+}
