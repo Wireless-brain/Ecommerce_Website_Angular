@@ -13,7 +13,7 @@
                   <h5 class="card-title">{{item.title  | slice : 0 : 15}}</h5>
                   <p class="card-text">{{item.description  | slice : 0 : 40}}</p>
                   <h5 class="card-title">₹{{item.price}}</h5>
-                  <a href="#" class="btn btn-primary">Buy Now</a>
+                  <a routerLink="{{item.id}}" class="btn btn-primary">Buy Now</a>
               </div>
           </div>
           </div>
