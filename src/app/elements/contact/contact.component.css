@@ -1,6 +1,23 @@
-.new{
+.container-fluid{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    height: 100vh;
+}
+
+.abc{
+
+    width: 40rem;
+    height: 33rem;
+}
+
+.card-1{
+    width: 55rem; 
+    height: 33rem;
+}
+
+.img1{
+    height: 40px;
+    width: 40px;
 }
