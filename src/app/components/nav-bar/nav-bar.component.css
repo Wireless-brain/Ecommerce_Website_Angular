@@ -15,3 +15,8 @@
 .new-Nav{
     margin-right: 10px;
 }
+
+.homeNav{
+    text-decoration: none;
+    color: black;
+}

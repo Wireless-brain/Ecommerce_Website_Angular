@@ -16,6 +16,15 @@
     justify-content: center;
 }
 
-img{
+.card-img-top{
     height: 25rem;
+    border-radius: 20px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.footImg{
+    
 }

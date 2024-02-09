@@ -1,25 +1,27 @@
 <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand">
-        <img src="../../../assets/siteIcon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-        eKart Express
+        <a routerLink="" class="homeNav">
+          <img src="../../../assets/siteIcon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        <b>eKart Express</b>
+      </a>
       </a>
 
       <ul class="nav justify-content-end">
         <div class="nvBtn">
             <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    <a class="nav-link active" aria-current="page" routerLink="product">Products</a>
                 
             </li>
         </div>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cart</a>
+          <a class="nav-link" routerLink="">Cart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Account</a>
+          <a class="nav-link" routerLink="">Account</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" routerLink="contact">Contact Us</a>
         </li>
       </ul>
 
