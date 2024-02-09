@@ -10,11 +10,14 @@ import { ContactComponent } from './elements/contact/contact.component';
 import { HomePgComponent } from './elements/home-pg/home-pg.component';
 import { HomeHeadComponent } from './components/home-head/home-head.component';
 import { DetailsPgComponent } from './elements/details-pg/details-pg.component';
+import { HomeHead2Component } from './components/home-head2/home-head2.component';
+import { StarRateComponent } from './components/star-rate/star-rate.component';
+import { LoginComponent } from './elements/login/login.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,SlicePipe,NavBarComponent,CardsComponent,FooterComponent,ContactComponent,HomePgComponent,HomeHeadComponent,DetailsPgComponent],
+  imports: [RouterOutlet,SlicePipe,NavBarComponent,CardsComponent,FooterComponent,ContactComponent,HomePgComponent,HomeHeadComponent,DetailsPgComponent,HomeHead2Component,StarRateComponent,LoginComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
