@@ -1,0 +1,21 @@
+
+.h1h{
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: rgb(42, 102, 132);
+    background-color: rgb(174, 193, 202);
+    border-radius: 7px;
+    height: auto;
+    width: 200px;
+    text-align: center;
+}
+
+.hdDiv{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 25rem;
+}

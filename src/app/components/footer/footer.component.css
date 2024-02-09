@@ -1,0 +1,13 @@
+.foot{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.git{
+    height: 30px;
+    width: 30px;
+    margin: 4px;
+}
+
